@@ -1,0 +1,62 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import '../template/mixins';
+@import '../template/settings';
+// ---------------------------------------------
+
+@import './_fonts';
+@import './_logo_dark';
+@import './_makina-colors';
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: $makina-noir-makina;
+$backgroundAlternateColor: $makina-blanc;
+
+$mainColor: $makina-blanc;
+$headingColor: $makina-vert-makina;
+
+$mainFontSize: 26px;
+$mainFont: 'SourceSansPro Light', 'Roboto Slab', Helvetica, Verdana, sans-serif;
+$headingFont: 'SourceSansPro Light', 'Roboto Slab', Helvetica, Verdana,
+  sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 900;
+$linkColor: $makina-capucine;
+$linkColorHover: lighten($linkColor, 15%);
+$selectionBackgroundColor: lighten($makina-capucine, 5%);
+
+$titleSize: 2.4em;
+$titleSize2: 1.8em;
+$heading1Size: 1.8em;
+$heading2Size: 1.45em;
+$heading3Size: 1.25em;
+$heading4Size: 1em;
+
+$green-makina: $makina-vert;
+
+// Theme template ------------------------------
+@import '../template/theme';
+// ---------------------------------------------
+
+@import './_common';
+
+.reveal {
+  @include has-dark-background();
+}
+
+.reveal .alternate {
+  @include has-light-background();
+  background-color: $backgroundAlternateColor;
+}
+
+.reveal .progress {
+  @include has-light-background();
+  background-color: $backgroundAlternateColor;
+}

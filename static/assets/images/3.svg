@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="316" height="298" view_box="0 0 316 298"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Mon, 17 Feb 2020 03:20:59</desc>
+
+<rect id="frame" x="0" y="0" width="316" height="298" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association CONTIENT -->
+<line x1="266" y1="111" x2="154" y2="111" stroke="#f46d43" stroke-width="2"/>
+<text x="199" y="103.0" fill="#4575b4" font-family="Verdana" font-size="12">1,1</text>
+<line x1="199" y1="105.0" x2="220" y2="105.0" stroke="#4575b4" stroke-width="1"/>
+<line x1="46" y1="111" x2="154" y2="111" stroke="#f46d43" stroke-width="2"/>
+<text x="88" y="128.0" fill="#4575b4" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-CONTIENT">
+	<path d="M 179 86 a 14 14 90 0 1 14 14 V 111 h -78 V 100 a 14 14 90 0 1 14 -14" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+	<path d="M 193 111.0 v 11 a 14 14 90 0 1 -14 14 H 129 a 14 14 90 0 1 -14 -14 V 111.0 H 78" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+	<rect x="115" y="86" width="78" height="50" fill="none" rx="14" stroke="#f46d43" stroke-width="2"/>
+	<line x1="115" y1="111" x2="193" y2="111" stroke="#f46d43" stroke-width="1"/>
+	<text x="122" y="103.7" fill="#000000" font-family="Verdana" font-size="12">CONTIENT</text>
+</g>
+
+<!-- Association INCLUT -->
+<line x1="46" y1="238" x2="154" y2="238" stroke="#f46d43" stroke-width="2"/>
+<text x="87" y="255.0" fill="#4575b4" font-family="Verdana" font-size="12">1,N</text>
+<line x1="266" y1="111" x2="154" y2="238" stroke="#f46d43" stroke-width="2"/>
+<text x="199" y="155.935694823" fill="#4575b4" font-family="Verdana" font-size="12">1,1</text>
+<line x1="199" y1="157.935694823" x2="220" y2="157.935694823" stroke="#4575b4" stroke-width="1"/>
+<g id="association-INCLUT">
+	<path d="M 170 213 a 14 14 90 0 1 14 14 V 238 h -60 V 227 a 14 14 90 0 1 14 -14" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+	<path d="M 184 238.0 v 11 a 14 14 90 0 1 -14 14 H 138 a 14 14 90 0 1 -14 -14 V 238.0 H 60" fill="#fee090" stroke="#fee090" stroke-width="0"/>
+	<rect x="124" y="213" width="60" height="50" fill="none" rx="14" stroke="#f46d43" stroke-width="2"/>
+	<line x1="124" y1="238" x2="184" y2="238" stroke="#f46d43" stroke-width="1"/>
+	<text x="131" y="230.7" fill="#000000" font-family="Verdana" font-size="12">INCLUT</text>
+</g>
+
+<!-- Entity COMMUNE -->
+<g id="entity-COMMUNE">
+	<g id="frame-COMMUNE">
+		<rect x="9" y="77" width="74" height="25" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+		<rect x="9" y="102.0" width="74" height="43" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+		<rect x="9" y="77" width="74" height="68" fill="none" stroke="#74add1" stroke-width="2"/>
+		<line x1="9" y1="102" x2="83" y2="102" stroke="#74add1" stroke-width="1"/>
+	</g>
+	<text x="14" y="94.7" fill="#000000" font-family="Verdana" font-size="12">COMMUNE</text>
+	<text x="14" y="119.8" fill="#000000" font-family="Verdana" font-size="12">code</text>
+	<line x1="14" y1="122" x2="43" y2="122" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="136.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+</g>
+
+<!-- Entity PARCELLE -->
+<g id="entity-PARCELLE">
+	<g id="frame-PARCELLE">
+		<rect x="225" y="9" width="82" height="25" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+		<rect x="225" y="34.0" width="82" height="179" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+		<rect x="225" y="9" width="82" height="204" fill="none" stroke="#74add1" stroke-width="2"/>
+		<line x1="225" y1="34" x2="307" y2="34" stroke="#74add1" stroke-width="1"/>
+	</g>
+	<text x="235" y="26.7" fill="#000000" font-family="Verdana" font-size="12">PARCELLE</text>
+	<text x="230" y="51.7" fill="#000000" font-family="Verdana" font-size="12">gid</text>
+	<line x1="230" y1="54" x2="249" y2="54" style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:4;"/>
+	<text x="230" y="68.7" fill="#000000" font-family="Verdana" font-size="12">numero</text>
+	<text x="230" y="85.7" fill="#000000" font-family="Verdana" font-size="12">code_dep</text>
+	<text x="230" y="102.7" fill="#000000" font-family="Verdana" font-size="12">#code_com</text>
+	<text x="230" y="119.8" fill="#000000" font-family="Verdana" font-size="12">com_abs</text>
+	<text x="230" y="136.8" fill="#000000" font-family="Verdana" font-size="12">section</text>
+	<text x="230" y="153.8" fill="#000000" font-family="Verdana" font-size="12">feuille</text>
+	<text x="230" y="170.8" fill="#000000" font-family="Verdana" font-size="12">code_arr</text>
+	<text x="230" y="187.8" fill="#000000" font-family="Verdana" font-size="12">id_section</text>
+	<text x="230" y="204.8" fill="#000000" font-family="Verdana" font-size="12">geom</text>
+</g>
+
+<!-- Entity SECTION -->
+<g id="entity-SECTION">
+	<g id="frame-SECTION">
+		<rect x="10" y="187" width="72" height="25" fill="#abd9e9" stroke="#abd9e9" stroke-width="0"/>
+		<rect x="10" y="212.0" width="72" height="77" fill="#e0f3f8" stroke="#e0f3f8" stroke-width="0"/>
+		<rect x="10" y="187" width="72" height="102" fill="none" stroke="#74add1" stroke-width="2"/>
+		<line x1="10" y1="212" x2="82" y2="212" stroke="#74add1" stroke-width="1"/>
+	</g>
+	<text x="18" y="204.7" fill="#000000" font-family="Verdana" font-size="12">SECTION</text>
+	<text x="15" y="229.7" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="15" y1="232" x2="27" y2="232" stroke="#000000" stroke-width="1"/>
+	<text x="15" y="246.8" fill="#000000" font-family="Verdana" font-size="12">code_com</text>
+	<text x="15" y="263.8" fill="#000000" font-family="Verdana" font-size="12">com_abs</text>
+	<text x="15" y="280.8" fill="#000000" font-family="Verdana" font-size="12">section</text>
+</g>
+</svg>
